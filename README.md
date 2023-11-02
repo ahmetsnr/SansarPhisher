@@ -1,13 +1,13 @@
-<h1 align="center">MaxPhisher</h1>
+<h1 align="center">SansarPhisher</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.2.1-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/MaxPhisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/MaxPhisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/MaxPhisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/MaxPhisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/MaxPhisher.svg" width="140" height="28">
+  <img src="https://img.shields.io/github/stars/KasRoudra/SansarPhisher?style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/forks/KasRoudra/SansarPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/watchers/KasRoudra/SansarPhisher?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/issues/KasRoudra/SansarPhisher?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/KasRoudra/SansarPhisher?style=for-the-badge&color=blue">
+  <img src="https://hits.dwyl.com/KasRoudra/SansarPhisher.svg" width="140" height="28">
 <br>
 <br>
   <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
@@ -36,32 +36,32 @@
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/MaxPhisher```
+ - ```git clone https://github.com/KasRoudra/SansarPhisher```
 
 ##### Enter the directory
- - ```cd MaxPhisher```
+ - ```cd SansarPhisher```
 
 ##### Install all modules
  - ```pip3 install -r files/requirements.txt --break-system-packages```
 
 ##### Run the tool
- - ```python3 maxphisher.py```
+ - ```python3 sansarphisher.py```
 
 #### Or, directly run
 ```
-wget https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/maxphisher.py && python3 maxphisher.py
+wget https://raw.githubusercontent.com/ahmetsnr/SansarPhisher/main/maxphisher.py && python3 sansarphisher.py
 
 ```
 
 ### Pip
- - `pip3 install maxphisher` [For Termux]
- - `sudo pip3 install maxphisher --break-system-packages` [For Linux]
- - `maxphisher`
+ - `pip3 install sansarphisher` [For Termux]
+ - `sudo pip3 install sansarphisher --break-system-packages` [For Linux]
+ - `sansarphisher`
 
 ### Docker
 
- - `sudo docker pull kasroudra/maxphisher`
- - `sudo docker run --rm -it kasroudra/maxphisher`
+ - `sudo docker pull ahmetsnr/sansarphisher`
+ - `sudo docker run --rm -it ahmetsnr/sansarphisher`
  - `sudo docker cp $(sudo docker ps | grep maxphisher | awk '{print $1}'):/root/Media media` [Run this on another terminal to copy received files from docker to media folder while keeping the container running]
 
 
@@ -88,11 +88,11 @@ usage: maxphisher.py [-h] [-p PORT] [-t TYPE] [-o OPTION]
 
 options:
   -h, --help            show this help message and exit
-  -p PORT, --port PORT  MaxPhisher's server port [Default : 8080]
-  -t TYPE, --type TYPE  MaxPhisher's phishing type index [Default :
+  -p PORT, --port PORT  SansarPhisher's server port [Default : 8080]
+  -t TYPE, --type TYPE  SansarPhisher's phishing type index [Default :
                         null]
   -o OPTION, --option OPTION
-                        MaxPhisher's template index [ Default : null ]
+                        SansarPhisher's template index [ Default : null ]
   -T TUNNELER, --tunneler TUNNELER
                         Tunneler to be chosen while url shortening
                         [Default : Cloudflared]
@@ -168,7 +168,7 @@ If not found, php, ssh and python modoules will be installed on first run
 
 <h1 align="center">Example</h1>
 
-![MaxPhisher](https://raw.githubusercontent.com/KasRoudra/MaxPhisher/main/files/maxphisher.gif)
+![SansarPhisher](https://raw.githubusercontent.com/ahmetsnr/SansarPhisher/main/files/sansarphisher.gif)
 
  
 ## Solution of common issues
@@ -186,21 +186,21 @@ If not found, php, ssh and python modoules will be installed on first run
 ###### Donate BTC: ***3Lx8ikQQgZZpmFJzHDBuQHXzLXMeWMcZF3***
 
 ## Credits:
-[PyPhisher](https://github.com/KasRoudra/PyPhisher)
-[CamHacker](https://github.com/KasRoudra/CamHacker)
-[VidPhisher](https://github.com/KasRoudra/VidPhisher)
-[IP-Tracker](https://github.com/KasRoudra/IP-Tracker)
+[PyPhisher](https://github.com/ahmetsnr/PyPhisher)
+[CamHacker](https://github.com/ahmetsnr/CamHacker)
+[VidPhisher](https://github.com/ahmetsnr/VidPhisher)
+[IP-Tracker](https://github.com/ahmetsnr/IP-Tracker)
 [Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker)
 [Seeker](https://github.com/thewhiteh4t/seeker)
 
 ## [~] Find Me on :
 
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/KasRoudra)
+- [![Github](https://img.shields.io/badge/Github-ahmetsnr-green?style=for-the-badge&logo=github)](https://github.com/ahmetsnr)
 
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:kasroudrakrd@gmail.com)
+- [![Gmail](https://img.shields.io/badge/Gmail-ahmetsnr-green?style=for-the-badge&logo=gmail)](mailto:******@gmail.com)
 
-- [![Facebook](https://img.shields.io/badge/Facebook-KasRoudra-green?style=for-the-badge&logo=facebook)](https://facebook.com/KasRoudra)
+- [![Facebook](https://img.shields.io/badge/Facebook-ahmetsnr-green?style=for-the-badge&logo=facebook)](https://facebook.com/ahmetsnr)
 
-- [![Messenger](https://img.shields.io/badge/Messenger-KasRoudra-green?style=for-the-badge&logo=messenger)](https://m.me/KasRoudra)
+- [![Messenger](https://img.shields.io/badge/Messenger-ahmetsnr-green?style=for-the-badge&logo=messenger)](https://m.me/ahmetsnr)
 
-- [![Telegram](https://img.shields.io/badge/Telegram-KasRoudra-indigo?style=for-the-badge&logo=telegram)](https://t.me/KasRoudra)
+- [![Telegram](https://img.shields.io/badge/Telegram-ahmetsnr-indigo?style=for-the-badge&logo=telegram)](https://t.me/ahmetsnr)
